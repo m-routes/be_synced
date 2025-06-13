@@ -1,0 +1,81 @@
+body.policy-body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.policy-title {
+  margin: 0;
+  font-size: 32px;
+}
+
+.policy-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.policy-container section {
+  margin-bottom: 30px;
+}
+
+.policy-container h2 {
+  color: #2c3e50;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+.policy-container ul {
+  padding-left: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #1a242f;
+}
+
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.footer-text {
+  color: #555;
+}
